@@ -7,7 +7,7 @@ namespace AtvMaquinaDeCafe
         private static double saldoCliente = 0.0;
         static void Main(string[] args)
         {
-             // Variável para armazenar o saldo do cliente
+             
             bool reiniciarSistema = true; // Variável para controlar se o sistema deve ser reiniciado
 
             while (reiniciarSistema)
