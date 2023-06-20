@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 namespace AtvMaquinaDeCafe
 {
     class Program
-    { 
+    {
         private static double saldoCliente = 0.0;
         static void Main(string[] args)
         {
-             
+
             bool reiniciarSistema = true; // Variável para controlar se o sistema deve ser reiniciado
 
             while (reiniciarSistema)
@@ -65,10 +65,10 @@ namespace AtvMaquinaDeCafe
                     continue;
                 }
 
-                Console.Write("\nDeseja atender ao próximo cliente? (Sim/Não): ");
+                Console.Write("\nDeseja atender ao próximo cliente? (S/N): ");
                 string resposta = Console.ReadLine().ToUpper();// converte um caracter para sempre sair em formato maiúsculo 
 
-                if (resposta != "Sim")
+                if (resposta != "S")
                 {
                     reiniciarSistema = false;
                 }
